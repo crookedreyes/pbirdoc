@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Power BI Report Visualizer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Power BI Report Documentation Tool</h1>
+        <p>Upload and visualize PBIR format reports</p>
+    </header>
+
+    <main>
+        <section id="upload-section">
+            <div class="upload-area">
+                <input type="file" id="pbir-upload" webkitdirectory multiple accept=".json">
+                <label for="pbir-upload">
+                    <div class="upload-content">
+                        <h3>Select Power BI Project Folder</h3>
+                        <p>Choose the folder containing your PBIR definition files</p>
+                    </div>
+                </label>
+            </div>
+        </section>
+
+        <section id="report-info" class="hidden">
+            <div class="info-panel">
+                <h2>Report Overview</h2>
+                <div id="report-metadata"></div>
+            </div>
+        </section>
+
+        <section id="pages-section" class="hidden">
+            <nav id="pages-nav">
+                <h3>Pages</h3>
+                <ul id="pages-list"></ul>
+            </nav>
+            
+            <div id="page-content">
+                <div id="page-layout">
+                    <canvas id="layout-canvas"></canvas>
+                </div>
+                
+                <aside id="visual-details">
+                    <h3>Visual Details</h3>
+                    <div id="visual-info"></div>
+                </aside>
+            </div>
+        </section>
+
+        <section id="visuals-summary" class="hidden">
+            <h2>All Visuals Summary</h2>
+            <div id="visuals-grid"></div>
+        </section>
+    </main>
+
+    <script src="pbir-parser.js"></script>
+    <script src="layout-renderer.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
