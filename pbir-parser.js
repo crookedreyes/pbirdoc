@@ -294,7 +294,13 @@ class PBIRParser {
         // Check for filterConfig at the container level
         if (visualData.filterConfig) {
             const filterConfigInfo = this.parseFilterConfig(visualData.filterConfig);
-            filters.push(filterConfigInfo);
+            if (Array.isArray(filterConfigInfo)) {
+                // If it returned an array of filters, add them all
+                filters.push(...filterConfigInfo);
+            } else {
+                // If it returned a single filter object, add it
+                filters.push(filterConfigInfo);
+            }
         }
         
         return filters;
@@ -397,9 +403,16 @@ class PBIRParser {
     }
     
     parseFilterConfig(filterConfig) {
+        const formatted = this.formatFilterConfig(filterConfig);
+        
+        // If formatFilterConfig returned an array of parsed filters, return them directly
+        if (Array.isArray(formatted)) {
+            return formatted;
+        }
+        
         return {
             type: 'Visual Filter Config',
-            description: this.formatFilterConfig(filterConfig),
+            description: formatted,
             raw: filterConfig
         };
     }
@@ -441,9 +454,24 @@ class PBIRParser {
     
     formatFilterConfig(config) {
         if (config.filters && Array.isArray(config.filters)) {
-            return config.filters.map(f => this.formatExpression(f.expression || f)).join('; ');
+            return config.filters.map(f => this.parseFilterExpression(f)).join('; ');
         } else if (config.expression) {
             return this.formatExpression(config.expression);
+        } else if (typeof config === 'string') {
+            // Handle semicolon-separated filter strings
+            const filterStrings = config.split(';').map(s => s.trim()).filter(s => s);
+            return filterStrings.map(filterStr => {
+                try {
+                    const filterObj = JSON.parse(filterStr);
+                    return this.parseFilterExpression(filterObj);
+                } catch (e) {
+                    return {
+                        type: 'String Filter',
+                        description: filterStr,
+                        expression: filterStr
+                    };
+                }
+            });
         } else {
             return JSON.stringify(config);
         }
