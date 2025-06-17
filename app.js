@@ -234,11 +234,12 @@ class PowerBIApp {
                                         <span class="filter-type">${filter.type || 'Filter'}</span>
                                     </div>
                                     <div class="filter-details">
-                                        ${filter.expression ? `<div class="filter-expression"><strong>Expression:</strong> ${filter.expression}</div>` : ''}
-                                        ${filter.filter ? `<div class="filter-condition"><strong>Condition:</strong> ${filter.filter}</div>` : ''}
-                                        ${filter.condition ? `<div class="filter-condition"><strong>Condition:</strong> ${filter.condition}</div>` : ''}
+                                        ${filter.description ? `<div class="filter-description">${filter.description}</div>` : ''}
+                                        ${filter.field ? `<div class="filter-field"><strong>Field:</strong> ${filter.field}</div>` : ''}
+                                        ${filter.expression && !filter.description ? `<div class="filter-expression"><strong>Expression:</strong> ${filter.expression}</div>` : ''}
+                                        ${filter.filter && !filter.description ? `<div class="filter-condition"><strong>Condition:</strong> ${filter.filter}</div>` : ''}
+                                        ${filter.condition && !filter.description ? `<div class="filter-condition"><strong>Condition:</strong> ${filter.condition}</div>` : ''}
                                         ${filter.value ? `<div class="filter-value"><strong>Value:</strong> ${filter.value}</div>` : ''}
-                                        ${filter.description ? `<div class="filter-description"><strong>Description:</strong> ${filter.description}</div>` : ''}
                                         ${filter.object && filter.property ? `<div class="filter-property"><strong>Property:</strong> ${filter.object}.${filter.property}</div>` : ''}
                                     </div>
                                 </div>

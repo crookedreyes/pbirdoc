@@ -301,6 +301,41 @@ class PBIRParser {
     }
     
     parseFilterExpression(filter) {
+        // Handle TopN/BottomN filters
+        if (filter.type === 'TopN' || filter.type === 'BottomN') {
+            const field = this.extractFieldName(filter.field);
+            const topValue = this.extractTopNValue(filter.filter);
+            return {
+                type: `${filter.type} Filter`,
+                description: `${filter.type} ${topValue}`,
+                field: field,
+                expression: `Show ${filter.type.toLowerCase()} ${topValue} by ${field}`
+            };
+        }
+        
+        // Handle Advanced filters
+        if (filter.type === 'Advanced') {
+            const field = this.extractFieldName(filter.field);
+            return {
+                type: 'Advanced Filter',
+                field: field,
+                description: `Advanced filter on ${field}`,
+                expression: `Advanced filtering applied to ${field}`
+            };
+        }
+        
+        // Handle Basic filters
+        if (filter.type === 'Basic') {
+            const field = this.extractFieldName(filter.field);
+            return {
+                type: 'Basic Filter',
+                field: field,
+                description: `Basic filter on ${field}`,
+                expression: `Basic filtering applied to ${field}`
+            };
+        }
+        
+        // Handle other filter types
         if (filter.expression && filter.filter) {
             return {
                 type: 'Expression Filter',
@@ -321,6 +356,44 @@ class PBIRParser {
                 raw: filter
             };
         }
+    }
+    
+    extractFieldName(field) {
+        if (field && field.Column && field.Column.Property) {
+            return field.Column.Property;
+        } else if (field && field.Aggregation && field.Aggregation.Expression && field.Aggregation.Expression.Column) {
+            const aggFunction = this.getAggregationFunction(field.Aggregation.Function);
+            return `${aggFunction}(${field.Aggregation.Expression.Column.Property})`;
+        } else if (typeof field === 'string') {
+            return field;
+        } else {
+            return 'Unknown Field';
+        }
+    }
+    
+    getAggregationFunction(funcId) {
+        const functions = {
+            0: 'Sum',
+            1: 'Average',
+            2: 'Min',
+            3: 'Max',
+            4: 'Count',
+            5: 'CountDistinct'
+        };
+        return functions[funcId] || 'Unknown';
+    }
+    
+    extractTopNValue(filterObj) {
+        try {
+            if (filterObj && filterObj.From && filterObj.From[0] && filterObj.From[0].Expression && 
+                filterObj.From[0].Expression.Subquery && filterObj.From[0].Expression.Subquery.Query && 
+                filterObj.From[0].Expression.Subquery.Query.Top) {
+                return filterObj.From[0].Expression.Subquery.Query.Top;
+            }
+        } catch (e) {
+            // Ignore parsing errors
+        }
+        return 'N';
     }
     
     parseFilterConfig(filterConfig) {
