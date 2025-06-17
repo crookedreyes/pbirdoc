@@ -227,11 +227,23 @@ class PowerBIApp {
                 ${filters.length > 0 ? `
                     <div class="visual-section">
                         <h5>🔍 Filters (${filters.length})</h5>
-                        <ul class="property-list">
+                        <div class="filters-list">
                             ${filters.map((filter, index) => `
-                                <li><span class="property-name">Filter ${index + 1}:</span> <span class="property-value">${filter.expression || filter.condition || 'Complex filter'}</span></li>
+                                <div class="filter-item">
+                                    <div class="filter-header">
+                                        <span class="filter-type">${filter.type || 'Filter'}</span>
+                                    </div>
+                                    <div class="filter-details">
+                                        ${filter.expression ? `<div class="filter-expression"><strong>Expression:</strong> ${filter.expression}</div>` : ''}
+                                        ${filter.filter ? `<div class="filter-condition"><strong>Condition:</strong> ${filter.filter}</div>` : ''}
+                                        ${filter.condition ? `<div class="filter-condition"><strong>Condition:</strong> ${filter.condition}</div>` : ''}
+                                        ${filter.value ? `<div class="filter-value"><strong>Value:</strong> ${filter.value}</div>` : ''}
+                                        ${filter.description ? `<div class="filter-description"><strong>Description:</strong> ${filter.description}</div>` : ''}
+                                        ${filter.object && filter.property ? `<div class="filter-property"><strong>Property:</strong> ${filter.object}.${filter.property}</div>` : ''}
+                                    </div>
+                                </div>
                             `).join('')}
-                        </ul>
+                        </div>
                     </div>
                 ` : ''}
                 
@@ -451,6 +463,59 @@ const additionalStyles = `
     
     .visual-actions button:hover {
         background: #e6841a;
+    }
+    
+    /* Filter styles */
+    .filters-list {
+        margin-top: 0.5rem;
+    }
+    
+    .filter-item {
+        background: #f8f9fa;
+        border: 1px solid #e9ecef;
+        border-radius: 5px;
+        margin-bottom: 0.5rem;
+        overflow: hidden;
+    }
+    
+    .filter-header {
+        background: #e9ecef;
+        padding: 0.5rem;
+        border-bottom: 1px solid #dee2e6;
+    }
+    
+    .filter-type {
+        font-weight: bold;
+        color: #495057;
+        font-size: 0.8rem;
+        text-transform: uppercase;
+    }
+    
+    .filter-details {
+        padding: 0.5rem;
+    }
+    
+    .filter-details > div {
+        margin-bottom: 0.3rem;
+        font-size: 0.85rem;
+        line-height: 1.4;
+    }
+    
+    .filter-details > div:last-child {
+        margin-bottom: 0;
+    }
+    
+    .filter-expression,
+    .filter-condition,
+    .filter-value,
+    .filter-description,
+    .filter-property {
+        word-break: break-word;
+    }
+    
+    .filter-details strong {
+        color: #495057;
+        margin-right: 0.3rem;
     }
 `;
 

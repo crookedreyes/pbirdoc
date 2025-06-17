@@ -244,10 +244,8 @@ class PBIRParser {
         // Check filters at the root level
         if (visualData.filters) {
             visualData.filters.forEach(filter => {
-                filters.push({
-                    expression: filter.expression,
-                    filter: filter.filter
-                });
+                const filterInfo = this.parseFilterExpression(filter);
+                filters.push(filterInfo);
             });
         }
         
@@ -259,22 +257,139 @@ class PBIRParser {
             if (singleVisual.prototypeQuery && singleVisual.prototypeQuery.Where) {
                 singleVisual.prototypeQuery.Where.forEach(where => {
                     filters.push({
+                        type: 'Query Filter',
                         condition: where.Condition,
-                        expression: where.Expression
+                        expression: this.formatExpression(where.Expression),
+                        raw: where
                     });
+                });
+            }
+            
+            // Extract from objects (visual-level filters)
+            if (singleVisual.objects) {
+                Object.keys(singleVisual.objects).forEach(objectKey => {
+                    const objectArray = singleVisual.objects[objectKey];
+                    if (Array.isArray(objectArray)) {
+                        objectArray.forEach(obj => {
+                            if (obj.properties) {
+                                Object.keys(obj.properties).forEach(propKey => {
+                                    const prop = obj.properties[propKey];
+                                    if (this.isFilterProperty(propKey, prop)) {
+                                        filters.push({
+                                            type: 'Visual Property Filter',
+                                            object: objectKey,
+                                            property: propKey,
+                                            value: this.formatPropertyValue(prop),
+                                            raw: prop
+                                        });
+                                    }
+                                });
+                            }
+                        });
+                    }
                 });
             }
         }
         
         // Check for filterConfig at the container level
         if (visualData.filterConfig) {
-            filters.push({
-                type: 'Visual Filter',
-                config: visualData.filterConfig
-            });
+            const filterConfigInfo = this.parseFilterConfig(visualData.filterConfig);
+            filters.push(filterConfigInfo);
         }
         
         return filters;
+    }
+    
+    parseFilterExpression(filter) {
+        if (filter.expression && filter.filter) {
+            return {
+                type: 'Expression Filter',
+                expression: this.formatExpression(filter.expression),
+                filter: this.formatFilterObject(filter.filter),
+                raw: filter
+            };
+        } else if (filter.expression) {
+            return {
+                type: 'Expression Filter',
+                expression: this.formatExpression(filter.expression),
+                raw: filter
+            };
+        } else {
+            return {
+                type: 'Unknown Filter',
+                description: JSON.stringify(filter, null, 2),
+                raw: filter
+            };
+        }
+    }
+    
+    parseFilterConfig(filterConfig) {
+        return {
+            type: 'Visual Filter Config',
+            description: this.formatFilterConfig(filterConfig),
+            raw: filterConfig
+        };
+    }
+    
+    formatExpression(expression) {
+        if (typeof expression === 'string') {
+            return expression;
+        } else if (expression && expression.Column) {
+            return `${expression.Column.Expression}.${expression.Column.Property}`;
+        } else if (expression && expression.Aggregation) {
+            return `${expression.Aggregation.Expression} (${expression.Aggregation.Function})`;
+        } else if (expression && expression.Literal) {
+            return expression.Literal.Value;
+        } else {
+            return JSON.stringify(expression);
+        }
+    }
+    
+    formatFilterObject(filterObj) {
+        if (filterObj.In && filterObj.In.Expressions) {
+            const values = filterObj.In.Expressions.map(expr => this.formatExpression(expr));
+            return `IN (${values.join(', ')})`;
+        } else if (filterObj.Between) {
+            return `BETWEEN ${this.formatExpression(filterObj.Between.LowerBound)} AND ${this.formatExpression(filterObj.Between.UpperBound)}`;
+        } else if (filterObj.And) {
+            const conditions = filterObj.And.map(cond => this.formatFilterObject(cond));
+            return `(${conditions.join(' AND ')})`;
+        } else if (filterObj.Or) {
+            const conditions = filterObj.Or.map(cond => this.formatFilterObject(cond));
+            return `(${conditions.join(' OR ')})`;
+        } else if (filterObj.Not) {
+            return `NOT (${this.formatFilterObject(filterObj.Not)})`;
+        } else if (filterObj.Comparison) {
+            return `${filterObj.Comparison.ComparisonKind} ${this.formatExpression(filterObj.Comparison.Right)}`;
+        } else {
+            return JSON.stringify(filterObj);
+        }
+    }
+    
+    formatFilterConfig(config) {
+        if (config.filters && Array.isArray(config.filters)) {
+            return config.filters.map(f => this.formatExpression(f.expression || f)).join('; ');
+        } else if (config.expression) {
+            return this.formatExpression(config.expression);
+        } else {
+            return JSON.stringify(config);
+        }
+    }
+    
+    isFilterProperty(propKey, prop) {
+        // Common filter-related properties in Power BI visuals
+        const filterProps = ['filter', 'where', 'condition', 'filterType', 'advanced', 'basic'];
+        return filterProps.some(fp => propKey.toLowerCase().includes(fp.toLowerCase()));
+    }
+    
+    formatPropertyValue(prop) {
+        if (prop.literal) {
+            return prop.literal.value;
+        } else if (prop.expression) {
+            return this.formatExpression(prop.expression);
+        } else {
+            return JSON.stringify(prop);
+        }
     }
     
     extractLayout(visualData) {
