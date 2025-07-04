@@ -1,0 +1,3856 @@
+{
+  "overview": {
+    "totalPages": 18,
+    "totalVisuals": 166,
+    "globalFilters": [
+      {
+        "name": "Filter",
+        "type": "List Filter",
+        "field": "Unknown Field",
+        "isHidden": false,
+        "isLocked": false
+      }
+    ]
+  },
+  "pages": [
+    {
+      "name": "Intro",
+      "id": "ReportSection1dea67c2520bce38f54f",
+      "dimensions": "1280 × 760",
+      "visuals": [
+        {
+          "name": "Button (23db26b3)",
+          "type": "Button",
+          "position": {
+            "x": 709,
+            "y": 695,
+            "width": 40,
+            "height": 40
+          },
+          "measures": [],
+          "dimensions": [],
+          "filters": [],
+          "isHidden": true
+        },
+        {
+          "name": "Button (51ce430d)",
+          "type": "Button",
+          "position": {
+            "x": 709,
+            "y": 690,
+            "width": 40,
+            "height": 40
+          },
+          "measures": [],
+          "dimensions": [],
+          "filters": [],
+          "isHidden": false
+        },
+        {
+          "name": "Button (8d760e8e)",
+          "type": "Button",
+          "position": {
+            "x": 709,
+            "y": 693,
+            "width": 40,
+            "height": 40
+          },
+          "measures": [],
+          "dimensions": [],
+          "filters": [],
+          "isHidden": true
+        },
+        {
+          "name": "Button (920f4a43)",
+          "type": "Button",
+          "position": {
+            "x": 709,
+            "y": 501,
+            "width": 40,
+            "height": 40
+          },
+          "measures": [],
+          "dimensions": [],
+          "filters": [],
+          "isHidden": true
+        },
+        {
+          "name": "Button (a03ed496)",
+          "type": "Button",
+          "position": {
+            "x": 82,
+            "y": 560,
+            "width": 194,
+            "height": 51
+          },
+          "measures": [],
+          "dimensions": [],
+          "filters": [],
+          "isHidden": false
+        },
+        {
+          "name": "Button (a125e859)",
+          "type": "Button",
+          "position": {
+            "x": 709,
+            "y": 597,
+            "width": 40,
+            "height": 40
+          },
+          "measures": [],
+          "dimensions": [],
+          "filters": [],
+          "isHidden": false
+        },
+        {
+          "name": "Button (c5c752cd)",
+          "type": "Button",
+          "position": {
+            "x": 709,
+            "y": 595,
+            "width": 40,
+            "height": 40
+          },
+          "measures": [],
+          "dimensions": [],
+          "filters": [],
+          "isHidden": true
+        },
+        {
+          "name": "Button (fcfceba3)",
+          "type": "Button",
+          "position": {
+            "x": 709,
+            "y": 501,
+            "width": 40,
+            "height": 40
+          },
+          "measures": [],
+          "dimensions": [],
+          "filters": [],
+          "isHidden": true
+        },
+        {
+          "name": "Custom Visual (15c415aa)",
+          "type": "Custom Visual",
+          "position": {
+            "x": 765,
+            "y": 0,
+            "width": 500,
+            "height": 760
+          },
+          "measures": [
+            {
+              "type": "measure",
+              "role": "category",
+              "name": "Details.Info Tooltip",
+              "table": "Details",
+              "field": "Info Tooltip"
+            }
+          ],
+          "dimensions": [],
+          "filters": [
+            {
+              "name": "3bc4498c8285b360e3c3",
+              "type": "Advanced Filter",
+              "field": "Details.Info Tooltip",
+              "isHidden": false,
+              "isLocked": false
+            }
+          ],
+          "isHidden": true
+        },
+        {
+          "name": "Custom Visual (6f5c6044)",
+          "type": "Custom Visual",
+          "position": {
+            "x": 764,
+            "y": 0,
+            "width": 500,
+            "height": 760
+          },
+          "measures": [
+            {
+              "type": "measure",
+              "role": "category",
+              "name": "Details.Info Tooltip 2",
+              "table": "Details",
+              "field": "Info Tooltip 2"
+            }
+          ],
+          "dimensions": [],
+          "filters": [],
+          "isHidden": true
+        },
+        {
+          "name": "Pivot Table (5da3c3f8)",
+          "type": "Pivot Table",
+          "position": {
+            "x": 765,
+            "y": 0,
+            "width": 500,
+            "height": 760
+          },
+          "measures": [],
+          "dimensions": [
+            {
+              "type": "dimension",
+              "role": "Rows",
+              "name": "Details.Design Factor",
+              "table": "Details",
+              "field": "Design Factor"
+            },
+            {
+              "type": "dimension",
+              "role": "Rows",
+              "name": "Details.Topic",
+              "table": "Details",
+              "field": "Topic"
+            }
+          ],
+          "filters": [
+            {
+              "name": "ac846eb802702ecdc164",
+              "type": "List Filter",
+              "field": "Details.Design Factor",
+              "isHidden": false,
+              "isLocked": false
+            },
+            {
+              "name": "1a50095bcb55aeb9e648",
+              "type": "List Filter",
+              "field": "Details.Topic",
+              "isHidden": false,
+              "isLocked": false
+            }
+          ],
+          "isHidden": true
+        },
+        {
+          "name": "Pivot Table (94e00a62)",
+          "type": "Pivot Table",
+          "position": {
+            "x": 765,
+            "y": 0,
+            "width": 500,
+            "height": 760
+          },
+          "measures": [],
+          "dimensions": [
+            {
+              "type": "dimension",
+              "role": "Rows",
+              "name": "Details.Design Factor",
+              "table": "Details",
+              "field": "Design Factor"
+            },
+            {
+              "type": "dimension",
+              "role": "Rows",
+              "name": "Details.Topic",
+              "table": "Details",
+              "field": "Topic"
+            }
+          ],
+          "filters": [
+            {
+              "name": "0e10997acd50124b1dbb",
+              "type": "List Filter",
+              "field": "Details.Design Factor",
+              "isHidden": false,
+              "isLocked": false
+            },
+            {
+              "name": "87f140ff75cd2ec90beb",
+              "type": "List Filter",
+              "field": "Details.Topic",
+              "isHidden": false,
+              "isLocked": false
+            }
+          ],
+          "isHidden": false
+        },
+        {
+          "name": "Shape (839e234b)",
+          "type": "Shape",
+          "position": {
+            "x": 712,
+            "y": 514,
+            "width": 36,
+            "height": 213
+          },
+          "measures": [],
+          "dimensions": [],
+          "filters": [],
+          "isHidden": false
+        },
+        {
+          "name": "Text Box (1983b56f)",
+          "type": "Text Box",
+          "position": {
+            "x": 813,
+            "y": 545,
+            "width": 420,
+            "height": 177
+          },
+          "measures": [],
+          "dimensions": [],
+          "filters": [],
+          "isHidden": true
+        },
+        {
+          "name": "Text Box (3e0614aa)",
+          "type": "Text Box",
+          "position": {
+            "x": 813,
+            "y": 545,
+            "width": 420,
+            "height": 177
+          },
+          "measures": [],
+          "dimensions": [],
+          "filters": [],
+          "isHidden": true
+        },
+        {
+          "name": "Text Box (8acdd971)",
+          "type": "Text Box",
+          "position": {
+            "x": 82,
+            "y": 306,
+            "width": 544,
+            "height": 270
+          },
+          "measures": [],
+          "dimensions": [],
+          "filters": [],
+          "isHidden": false
+        }
+      ],
+      "filters": []
+    },
+    {
+      "name": "RetKeyInf",
+      "id": "ReportSection23904f9ac2e638d5ed18",
+      "dimensions": "400 × 400",
+      "visuals": [
+        {
+          "name": "Custom Visual (7a2c874b)",
+          "type": "Custom Visual",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 400,
+            "height": 400
+          },
+          "measures": [],
+          "dimensions": [
+            {
+              "type": "dimension",
+              "role": "category",
+              "name": "GIF.URL",
+              "table": "Tooltip Info",
+              "field": "URL"
+            }
+          ],
+          "filters": [
+            {
+              "name": "e16c4ab1921b28ca2e4c",
+              "type": "List Filter",
+              "field": "Tooltip Info.URL",
+              "isHidden": false,
+              "isLocked": false
+            }
+          ],
+          "isHidden": false
+        }
+      ],
+      "filters": [
+        {
+          "name": "Filter",
+          "type": "List Filter",
+          "field": "Tooltip Info.nombre",
+          "isHidden": false,
+          "isLocked": false
+        }
+      ]
+    },
+    {
+      "name": "Returns Tooltip",
+      "id": "ReportSection2453dea2053ed300eb7c",
+      "dimensions": "250 × 400",
+      "visuals": [
+        {
+          "name": "Button (28ed56f0)",
+          "type": "Button",
+          "position": {
+            "x": 132,
+            "y": 344,
+            "width": 100,
+            "height": 40
+          },
+          "measures": [],
+          "dimensions": [],
+          "filters": [],
+          "isHidden": false
+        },
+        {
+          "name": "Button (62521677)",
+          "type": "Button",
+          "position": {
+            "x": 18,
+            "y": 344,
+            "width": 100,
+            "height": 40
+          },
+          "measures": [],
+          "dimensions": [],
+          "filters": [],
+          "isHidden": false
+        },
+        {
+          "name": "Card (26d7e287)",
+          "type": "Card",
+          "position": {
+            "x": 125,
+            "y": 324,
+            "width": 114,
+            "height": 55
+          },
+          "measures": [
+            {
+              "type": "measure",
+              "role": "Values",
+              "name": "Analysis DAX.Return Rate",
+              "table": "Analysis DAX",
+              "field": "Return Rate"
+            }
+          ],
+          "dimensions": [],
+          "filters": [],
+          "isHidden": false
+        },
+        {
+          "name": "Card (458ec6da)",
+          "type": "Card",
+          "position": {
+            "x": 0,
+            "y": 32,
+            "width": 250,
+            "height": 28
+          },
+          "measures": [
+            {
+              "type": "measure",
+              "role": "Values",
+              "name": "Min(Product.Category)",
+              "aggregation": "Min",
+              "table": "Product",
+              "field": "Category"
+            }
+          ],
+          "dimensions": [],
+          "filters": [],
+          "isHidden": false
+        },
+        {
+          "name": "Card (462a8b82)",
+          "type": "Card",
+          "position": {
+            "x": 11,
+            "y": 324,
+            "width": 113,
+            "height": 55
+          },
+          "measures": [
+            {
+              "type": "measure",
+              "role": "Values",
+              "name": "Analysis DAX.Returns",
+              "table": "Analysis DAX",
+              "field": "Returns"
+            }
+          ],
+          "dimensions": [],
+          "filters": [],
+          "isHidden": false
+        },
+        {
+          "name": "Card (bc985269)",
+          "type": "Card",
+          "position": {
+            "x": 0,
+            "y": 46,
+            "width": 250,
+            "height": 51
+          },
+          "measures": [
+            {
+              "type": "measure",
+              "role": "Values",
+              "name": "CountNonNull(Product.ProductID)",
+              "aggregation": "Sum",
+              "table": "Product",
+              "field": "ProductID"
+            }
+          ],
+          "dimensions": [],
+          "filters": [],
+          "isHidden": false
+        },
+        {
+          "name": "Card (cf7ce087)",
+          "type": "Card",
+          "position": {
+            "x": 0,
+            "y": 17,
+            "width": 250,
+            "height": 28
+          },
+          "measures": [
+            {
+              "type": "measure",
+              "role": "Values",
+              "name": "Min(Product.Product)",
+              "aggregation": "Min",
+              "table": "Product",
+              "field": "Product"
+            }
+          ],
+          "dimensions": [],
+          "filters": [],
+          "isHidden": false
+        },
+        {
+          "name": "Custom Visual (0985c856)",
+          "type": "Custom Visual",
+          "position": {
+            "x": 11,
+            "y": 72,
+            "width": 228,
+            "height": 211
+          },
+          "measures": [],
+          "dimensions": [
+            {
+              "type": "dimension",
+              "role": "imageURL",
+              "name": "Product.Product Image",
+              "table": "Product",
+              "field": "Product Image"
+            }
+          ],
+          "filters": [],
+          "isHidden": false
+        },
+        {
+          "name": "Custom Visual (1fb52aa8)",
+          "type": "Custom Visual",
+          "position": {
+            "x": 4,
+            "y": 273,
+            "width": 244,
+            "height": 63
+          },
+          "measures": [],
+          "dimensions": [
+            {
+              "type": "dimension",
+              "role": "imageURL",
+              "name": "Product.Category Image",
+              "table": "Product",
+              "field": "Category Image"
+            }
+          ],
+          "filters": [],
+          "isHidden": false
+        },
+        {
+          "name": "Image (317aa39f)",
+          "type": "Image",
+          "position": {
+            "x": 60,
+            "y": 247,
+            "width": 132,
+            "height": 114
+          },
+          "measures": [],
+          "dimensions": [],
+          "filters": [],
+          "isHidden": false
+        }
+      ],
+      "filters": []
+    },
+    {
+      "name": "Q&A2",
+      "id": "ReportSection3cf1f64a09676ebe5725",
+      "dimensions": "400 × 400",
+      "visuals": [
+        {
+          "name": "Custom Visual (7a2c874b)",
+          "type": "Custom Visual",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 400,
+            "height": 400
+          },
+          "measures": [],
+          "dimensions": [
+            {
+              "type": "dimension",
+              "role": "category",
+              "name": "Tooltip Info2.URL",
+              "table": "Tooltip Info2",
+              "field": "URL"
+            }
+          ],
+          "filters": [
+            {
+              "name": "ced173678ce31927d408",
+              "type": "List Filter",
+              "field": "Tooltip Info2.URL",
+              "isHidden": false,
+              "isLocked": false
+            }
+          ],
+          "isHidden": false
+        }
+      ],
+      "filters": [
+        {
+          "name": "Filter",
+          "type": "List Filter",
+          "field": "Tooltip Info.nombre",
+          "isHidden": false,
+          "isLocked": false
+        }
+      ]
+    },
+    {
+      "name": "RetStoreBre",
+      "id": "ReportSection406bc05d6280a2c44873",
+      "dimensions": "400 × 400",
+      "visuals": [
+        {
+          "name": "Custom Visual (7a2c874b)",
+          "type": "Custom Visual",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 400,
+            "height": 400
+          },
+          "measures": [],
+          "dimensions": [
+            {
+              "type": "dimension",
+              "role": "category",
+              "name": "GIF.URL",
+              "table": "Tooltip Info",
+              "field": "URL"
+            }
+          ],
+          "filters": [],
+          "isHidden": false
+        }
+      ],
+      "filters": [
+        {
+          "name": "Filter",
+          "type": "List Filter",
+          "field": "Tooltip Info.nombre",
+          "isHidden": false,
+          "isLocked": false
+        }
+      ]
+    },
+    {
+      "name": "WhatIf",
+      "id": "ReportSection44182d852270e8b765cb",
+      "dimensions": "400 × 400",
+      "visuals": [
+        {
+          "name": "Custom Visual (7a2c874b)",
+          "type": "Custom Visual",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 400,
+            "height": 400
+          },
+          "measures": [],
+          "dimensions": [
+            {
+              "type": "dimension",
+              "role": "category",
+              "name": "GIF.URL",
+              "table": "Tooltip Info",
+              "field": "URL"
+            }
+          ],
+          "filters": [],
+          "isHidden": false
+        }
+      ],
+      "filters": [
+        {
+          "name": "Filter",
+          "type": "List Filter",
+          "field": "Tooltip Info.nombre",
+          "isHidden": false,
+          "isLocked": false
+        }
+      ]
+    },
+    {
+      "name": "Net Sales",
+      "id": "ReportSection4b3fbaa7dd7908d906d9",
+      "dimensions": "1280 × 760",
+      "visuals": [
+        {
+          "name": "Bar Chart (3a28c5fe)",
+          "type": "Bar Chart",
+          "position": {
+            "x": 23,
+            "y": 217,
+            "width": 393,
+            "height": 443
+          },
+          "measures": [
+            {
+              "type": "measure",
+              "role": "Y",
+              "name": "Sum(Sales.Amount)",
+              "aggregation": "Sum",
+              "table": "Sales",
+              "field": "Amount"
+            }
+          ],
+          "dimensions": [
+            {
+              "type": "dimension",
+              "role": "Category",
+              "name": "Product.Category",
+              "table": "Product",
+              "field": "Category"
+            },
+            {
+              "type": "dimension",
+              "role": "Category",
+              "name": "Product.Segment",
+              "table": "Product",
+              "field": "Segment"
+            },
+            {
+              "type": "dimension",
+              "role": "Category",
+              "name": "Product.Product",
+              "table": "Product",
+              "field": "Product"
+            }
+          ],
+          "filters": [
+            {
+              "name": "Filter",
+              "type": "List Filter",
+              "field": "Tooltip Info.nombre",
+              "isHidden": false,
+              "isLocked": false
+            }
+          ],
+          "isHidden": false
+        },
+        {
+          "name": "Bar Chart (d55aa7aa)",
+          "type": "Bar Chart",
+          "position": {
+            "x": 444,
+            "y": 217,
+            "width": 393,
+            "height": 443
+          },
+          "measures": [
+            {
+              "type": "measure",
+              "role": "Y",
+              "name": "Sum(Sales.Amount)",
+              "aggregation": "Sum",
+              "table": "Sales",
+              "field": "Amount"
+            }
+          ],
+          "dimensions": [
+            {
+              "type": "dimension",
+              "role": "Category",
+              "name": "Store.Manufacturer",
+              "table": "Store",
+              "field": "Store"
+            }
+          ],
+          "filters": [
+            {
+              "name": "Filter",
+              "type": "List Filter",
+              "field": "Tooltip Info.nombre",
+              "isHidden": false,
+              "isLocked": false
+            }
+          ],
+          "isHidden": false
+        },
+        {
+          "name": "Button (053f496f)",
+          "type": "Button",
+          "position": {
+            "x": 544,
+            "y": 134,
+            "width": 692,
+            "height": 40
+          },
+          "measures": [],
+          "dimensions": [],
+          "filters": [],
+          "isHidden": false
+        },
+        {
+          "name": "Button (080ec6ab)",
+          "type": "Button",
+          "position": {
+            "x": 224,
+            "y": 652,
+            "width": 81,
+            "height": 50
+          },
+          "measures": [],
+          "dimensions": [],
+          "filters": [],
+          "isHidden": true
+        },
+        {
+          "name": "Button (0f5634d9)",
+          "type": "Button",
+          "position": {
+            "x": 1013,
+            "y": 652,
+            "width": 96,
+            "height": 50
+          },
+          "measures": [],
+          "dimensions": [],
+          "filters": [],
+          "isHidden": false
+        },
+        {
+          "name": "Button (2610a334)",
+          "type": "Button",
+          "position": {
+            "x": 285,
+            "y": 10,
+            "width": 976,
+            "height": 28
+          },
+          "measures": [],
+          "dimensions": [],
+          "filters": [],
+          "isHidden": false
+        },
+        {
+          "name": "Button (26af840e)",
+          "type": "Button",
+          "position": {
+            "x": 1013,
+            "y": 652,
+            "width": 96,
+            "height": 50
+          },
+          "measures": [],
+          "dimensions": [],
+          "filters": [],
+          "isHidden": true
+        },
+        {
+          "name": "Button (3dfbf089)",
+          "type": "Button",
+          "position": {
+            "x": 553,
+            "y": 652,
+            "width": 79,
+            "height": 50
+          },
+          "measures": [],
+          "dimensions": [],
+          "filters": [],
+          "isHidden": false
+        },
+        {
+          "name": "Button (45390be3)",
+          "type": "Button",
+          "position": {
+            "x": 132,
+            "y": 652,
+            "width": 81,
+            "height": 50
+          },
+          "measures": [],
+          "dimensions": [],
+          "filters": [],
+          "isHidden": false
+        },
+        {
+          "name": "Button (5d14ac02)",
+          "type": "Button",
+          "position": {
+            "x": 1084,
+            "y": 74,
+            "width": 55,
+            "height": 30
+          },
+          "measures": [],
+          "dimensions": [],
+          "filters": [],
+          "isHidden": true
+        },
+        {
+          "name": "Button (722fc46e)",
+          "type": "Button",
+          "position": {
+            "x": 645,
+            "y": 652,
+            "width": 81,
+            "height": 50
+          },
+          "measures": [],
+          "dimensions": [],
+          "filters": [],
+          "isHidden": false
+        },
+        {
+          "name": "Button (7f774b8b)",
+          "type": "Button",
+          "position": {
+            "x": 0,
+            "y": 727,
+            "width": 1280,
+            "height": 33
+          },
+          "measures": [],
+          "dimensions": [],
+          "filters": [],
+          "isHidden": false
+        },
+        {
+          "name": "Button (81526d8b)",
+          "type": "Button",
+          "position": {
+            "x": 224,
+            "y": 652,
+            "width": 81,
+            "height": 50
+          },
+          "measures": [],
+          "dimensions": [],
+          "filters": [],
+          "isHidden": false
+        },
+        {
+          "name": "Button (83b8630b)",
+          "type": "Button",
+          "position": {
+            "x": 645,
+            "y": 652,
+            "width": 81,
+            "height": 50
+          },
+          "measures": [],
+          "dimensions": [],
+          "filters": [],
+          "isHidden": true
+        },
+        {
+          "name": "Button (8ff7d66f)",
+          "type": "Button",
+          "position": {
+            "x": 544,
+            "y": 65,
+            "width": 692,
+            "height": 40
+          },
+          "measures": [],
+          "dimensions": [],
+          "filters": [],
+          "isHidden": false
+        },
+        {
+          "name": "Button (ace24b3a)",
+          "type": "Button",
+          "position": {
+            "x": 553,
+            "y": 652,
+            "width": 79,
+            "height": 50
+          },
+          "measures": [],
+          "dimensions": [],
+          "filters": [],
+          "isHidden": true
+        },
+        {
+          "name": "Button (bdbdc676)",
+          "type": "Button",
+          "position": {
+            "x": 276,
+            "y": 131,
+            "width": 223,
+            "height": 34
+          },
+          "measures": [],
+          "dimensions": [],
+          "filters": [],
+          "isHidden": false
+        },
+        {
+          "name": "Button (cc73fe59)",
+          "type": "Button",
+          "position": {
+            "x": 132,
+            "y": 652,
+            "width": 81,
+            "height": 50
+          },
+          "measures": [],
+          "dimensions": [],
+          "filters": [],
+          "isHidden": true
+        },
+        {
+          "name": "Button (dec3aad3)",
+          "type": "Button",
+          "position": {
+            "x": 23,
+            "y": 131,
+            "width": 223,
+            "height": 34
+          },
+          "measures": [],
+          "dimensions": [],
+          "filters": [],
+          "isHidden": false
+        },
+        {
+          "name": "Button (e9ba73df)",
+          "type": "Button",
+          "position": {
+            "x": 1084,
+            "y": 74,
+            "width": 55,
+            "height": 30
+          },
+          "measures": [],
+          "dimensions": [],
+          "filters": [],
+          "isHidden": true
+        },
+        {
+          "name": "Card (327c785b)",
+          "type": "Card",
+          "position": {
+            "x": 39,
+            "y": 618,
+            "width": 39,
+            "height": 24
+          },
+          "measures": [
+            {
+              "type": "measure",
+              "role": "Values",
+              "name": "Analysis DAX.Sales",
+              "table": "Analysis DAX",
+              "field": "Net Sales"
+            }
+          ],
+          "dimensions": [],
+          "filters": [],
+          "isHidden": false
+        },
+        {
+          "name": "Card (44929275)",
+          "type": "Card",
+          "position": {
+            "x": 276,
+            "y": 71,
+            "width": 223,
+            "height": 59
+          },
+          "measures": [
+            {
+              "type": "measure",
+              "role": "Values",
+              "name": "Analysis DAX.Units Sold",
+              "table": "Analysis DAX",
+              "field": "Units Sold"
+            }
+          ],
+          "dimensions": [],
+          "filters": [],
+          "isHidden": false
+        },
+        {
+          "name": "Card (c22adfcc)",
+          "type": "Card",
+          "position": {
+            "x": 23,
+            "y": 71,
+            "width": 223,
+            "height": 59
+          },
+          "measures": [
+            {
+              "type": "measure",
+              "role": "Values",
+              "name": "Analysis DAX.Sales",
+              "table": "Analysis DAX",
+              "field": "Net Sales"
+            }
+          ],
+          "dimensions": [],
+          "filters": [],
+          "isHidden": false
+        },
+        {
+          "name": "Card (fd225c7a)",
+          "type": "Card",
+          "position": {
+            "x": 39,
+            "y": 595,
+            "width": 39,
+            "height": 24
+          },
+          "measures": [
+            {
+              "type": "measure",
+              "role": "Values",
+              "name": "Analysis DAX.Units Sold",
+              "table": "Analysis DAX",
+              "field": "Units Sold"
+            }
+          ],
+          "dimensions": [],
+          "filters": [],
+          "isHidden": false
+        },
+        {
+          "name": "Custom Visual (2b50de60)",
+          "type": "Custom Visual",
+          "position": {
+            "x": 444,
+            "y": 217,
+            "width": 393,
+            "height": 438
+          },
+          "measures": [
+            {
+              "type": "measure",
+              "role": "color",
+              "name": "Analysis DAX.Net Sales",
+              "table": "Analysis DAX",
+              "field": "Net Sales"
+            },
+            {
+              "type": "measure",
+              "role": "size",
+              "name": "Analysis DAX.Net Sales",
+              "table": "Analysis DAX",
+              "field": "Net Sales"
+            }
+          ],
+          "dimensions": [
+            {
+              "type": "dimension",
+              "role": "latitude",
+              "name": "Store.Latitude",
+              "table": "Store",
+              "field": "Latitude"
+            },
+            {
+              "type": "dimension",
+              "role": "longitude",
+              "name": "Store.Longitude",
+              "table": "Store",
+              "field": "Longitude"
+            }
+          ],
+          "filters": [],
+          "isHidden": true
+        },
+        {
+          "name": "Decomposition Tree (ff684e8b)",
+          "type": "Decomposition Tree",
+          "position": {
+            "x": 154,
+            "y": 121,
+            "width": 972,
+            "height": 537
+          },
+          "measures": [
+            {
+              "type": "measure",
+              "role": "Analyze",
+              "name": "Sum(Customer.Amount)",
+              "aggregation": "Sum",
+              "table": "Customer",
+              "field": "Amount"
+            }
+          ],
+          "dimensions": [
+            {
+              "type": "dimension",
+              "role": "ExplainBy",
+              "name": "Customer.Category",
+              "table": "Customer",
+              "field": "Category"
+            },
+            {
+              "type": "dimension",
+              "role": "ExplainBy",
+              "name": "Customer.Gender",
+              "table": "Customer",
+              "field": "Gender"
+            },
+            {
+              "type": "dimension",
+              "role": "ExplainBy",
+              "name": "Customer.Store",
+              "table": "Customer",
+              "field": "Store"
+            },
+            {
+              "type": "dimension",
+              "role": "ExplainBy",
+              "name": "Customer.Type",
+              "table": "Customer",
+              "field": "Type"
+            },
+            {
+              "type": "dimension",
+              "role": "ExplainBy",
+              "name": "Customer.Promotion",
+              "table": "Customer",
+              "field": "Promotion"
+            },
+            {
+              "type": "dimension",
+              "role": "ExplainBy",
+              "name": "Customer.Segment",
+              "table": "Customer",
+              "field": "Segment"
+            },
+            {
+              "type": "dimension",
+              "role": "ExplainBy",
+              "name": "Customer.Product",
+              "table": "Customer",
+              "field": "Product"
+            },
+            {
+              "type": "dimension",
+              "role": "ExplainBy",
+              "name": "Customer.Price Range",
+              "table": "Customer",
+              "field": "Price Range"
+            },
+            {
+              "type": "dimension",
+              "role": "ExplainBy",
+              "name": "Customer.Age",
+              "table": "Customer",
+              "field": "Age"
+            }
+          ],
+          "filters": [],
+          "isHidden": true
+        },
+        {
+          "name": "Image (214718d4)",
+          "type": "Image",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 1280,
+            "height": 760
+          },
+          "measures": [],
+          "dimensions": [],
+          "filters": [],
+          "isHidden": true
+        },
+        {
+          "name": "Image (ae79dbeb)",
+          "type": "Image",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 1280,
+            "height": 760
+          },
+          "measures": [],
+          "dimensions": [],
+          "filters": [],
+          "isHidden": true
+        },
+        {
+          "name": "Image (ccfcb99e)",
+          "type": "Image",
+          "position": {
+            "x": 39,
+            "y": 570,
+            "width": 39,
+            "height": 25
+          },
+          "measures": [],
+          "dimensions": [],
+          "filters": [],
+          "isHidden": false
+        },
+        {
+          "name": "Key Drivers (7a294bf0)",
+          "type": "Key Drivers",
+          "position": {
+            "x": 154,
+            "y": 121,
+            "width": 972,
+            "height": 537
+          },
+          "measures": [],
+          "dimensions": [
+            {
+              "type": "dimension",
+              "role": "ExplainBy",
+              "name": "Customer.Age",
+              "table": "Customer",
+              "field": "Age"
+            },
+            {
+              "type": "dimension",
+              "role": "ExplainBy",
+              "name": "Customer.Price Range",
+              "table": "Customer",
+              "field": "Price Range"
+            },
+            {
+              "type": "dimension",
+              "role": "ExplainBy",
+              "name": "Customer.Promotion",
+              "table": "Customer",
+              "field": "Promotion"
+            },
+            {
+              "type": "dimension",
+              "role": "ExplainBy",
+              "name": "Sum(Customer.Unit)",
+              "table": "Customer",
+              "field": "Unit"
+            },
+            {
+              "type": "dimension",
+              "role": "ExplainBy",
+              "name": "Customer.Store",
+              "table": "Customer",
+              "field": "Store"
+            },
+            {
+              "type": "dimension",
+              "role": "ExplainBy",
+              "name": "Customer.Category",
+              "table": "Customer",
+              "field": "Category"
+            },
+            {
+              "type": "dimension",
+              "role": "ExplainBy",
+              "name": "Customer.Segment",
+              "table": "Customer",
+              "field": "Segment"
+            },
+            {
+              "type": "dimension",
+              "role": "Target",
+              "name": "Customer.Gender",
+              "table": "Customer",
+              "field": "Gender"
+            }
+          ],
+          "filters": [],
+          "isHidden": true
+        },
+        {
+          "name": "Pivot Table (aae8953d)",
+          "type": "Pivot Table",
+          "position": {
+            "x": 23,
+            "y": 217,
+            "width": 393,
+            "height": 441
+          },
+          "measures": [
+            {
+              "type": "measure",
+              "role": "Values",
+              "name": "Analysis DAX.Net Sales",
+              "table": "Analysis DAX",
+              "field": "Net Sales"
+            },
+            {
+              "type": "measure",
+              "role": "Values",
+              "name": "Analysis DAX.Units Sold",
+              "table": "Analysis DAX",
+              "field": "Units Sold"
+            }
+          ],
+          "dimensions": [
+            {
+              "type": "dimension",
+              "role": "Rows",
+              "name": "Product.Segment",
+              "table": "Product",
+              "field": "Segment"
+            },
+            {
+              "type": "dimension",
+              "role": "Rows",
+              "name": "Product.Product",
+              "table": "Product",
+              "field": "Product"
+            }
+          ],
+          "filters": [],
+          "isHidden": true
+        },
+        {
+          "name": "Q&A Visual (035e3642)",
+          "type": "Q&A Visual",
+          "position": {
+            "x": 865,
+            "y": 217,
+            "width": 393,
+            "height": 443
+          },
+          "measures": [],
+          "dimensions": [],
+          "filters": [],
+          "isHidden": false
+        },
+        {
+          "name": "Q&A Visual (959bd7e9)",
+          "type": "Q&A Visual",
+          "position": {
+            "x": 865,
+            "y": 217,
+            "width": 393,
+            "height": 443
+          },
+          "measures": [],
+          "dimensions": [],
+          "filters": [],
+          "isHidden": true
+        },
+        {
+          "name": "Shape (359adc6f)",
+          "type": "Shape",
+          "position": {
+            "x": 110,
+            "y": 110,
+            "width": 9,
+            "height": 9
+          },
+          "measures": [],
+          "dimensions": [],
+          "filters": [],
+          "isHidden": true
+        },
+        {
+          "name": "Shape (82f0f62f)",
+          "type": "Shape",
+          "position": {
+            "x": 120,
+            "y": 120,
+            "width": 9,
+            "height": 9
+          },
+          "measures": [],
+          "dimensions": [],
+          "filters": [],
+          "isHidden": true
+        },
+        {
+          "name": "Shape (aefe1f0a)",
+          "type": "Shape",
+          "position": {
+            "x": 100,
+            "y": 100,
+            "width": 9,
+            "height": 9
+          },
+          "measures": [],
+          "dimensions": [],
+          "filters": [],
+          "isHidden": true
+        }
+      ],
+      "filters": [
+        {
+          "name": "Filter",
+          "type": "List Filter",
+          "field": "Sales.Status",
+          "isHidden": false,
+          "isLocked": false
+        }
+      ]
+    },
+    {
+      "name": "NetSales",
+      "id": "ReportSection76e99cbc27dbb0759922",
+      "dimensions": "400 × 400",
+      "visuals": [
+        {
+          "name": "Custom Visual (7a2c874b)",
+          "type": "Custom Visual",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 400,
+            "height": 400
+          },
+          "measures": [],
+          "dimensions": [
+            {
+              "type": "dimension",
+              "role": "category",
+              "name": "GIF.URL",
+              "table": "Tooltip Info",
+              "field": "URL"
+            }
+          ],
+          "filters": [],
+          "isHidden": false
+        }
+      ],
+      "filters": [
+        {
+          "name": "Filter",
+          "type": "List Filter",
+          "field": "Tooltip Info.nombre",
+          "isHidden": false,
+          "isLocked": false
+        }
+      ]
+    },
+    {
+      "name": "RetCategory",
+      "id": "ReportSection79828a20a2b300a5d99b",
+      "dimensions": "400 × 400",
+      "visuals": [
+        {
+          "name": "Custom Visual (7a2c874b)",
+          "type": "Custom Visual",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 400,
+            "height": 400
+          },
+          "measures": [],
+          "dimensions": [
+            {
+              "type": "dimension",
+              "role": "category",
+              "name": "GIF.URL",
+              "table": "Tooltip Info",
+              "field": "URL"
+            }
+          ],
+          "filters": [],
+          "isHidden": false
+        }
+      ],
+      "filters": [
+        {
+          "name": "Filter",
+          "type": "List Filter",
+          "field": "Tooltip Info.nombre",
+          "isHidden": false,
+          "isLocked": false
+        }
+      ]
+    },
+    {
+      "name": "Returns",
+      "id": "ReportSection998e2850a99cabad87e8",
+      "dimensions": "1280 × 760",
+      "visuals": [
+        {
+          "name": "Bar Chart (3a28c5fe)",
+          "type": "Bar Chart",
+          "position": {
+            "x": 23,
+            "y": 217,
+            "width": 393,
+            "height": 443
+          },
+          "measures": [
+            {
+              "type": "measure",
+              "role": "Y",
+              "name": "Analysis DAX.Returns",
+              "table": "Analysis DAX",
+              "field": "Returns"
+            }
+          ],
+          "dimensions": [
+            {
+              "type": "dimension",
+              "role": "Category",
+              "name": "Product.Category",
+              "table": "Product",
+              "field": "Category"
+            },
+            {
+              "type": "dimension",
+              "role": "Category",
+              "name": "Product.Segment",
+              "table": "Product",
+              "field": "Segment"
+            },
+            {
+              "type": "dimension",
+              "role": "Category",
+              "name": "Product.Product",
+              "table": "Product",
+              "field": "Product"
+            }
+          ],
+          "filters": [],
+          "isHidden": false
+        },
+        {
+          "name": "Bar Chart (d55aa7aa)",
+          "type": "Bar Chart",
+          "position": {
+            "x": 444,
+            "y": 217,
+            "width": 393,
+            "height": 443
+          },
+          "measures": [
+            {
+              "type": "measure",
+              "role": "Y",
+              "name": "Analysis DAX.Returns",
+              "table": "Analysis DAX",
+              "field": "Returns"
+            }
+          ],
+          "dimensions": [
+            {
+              "type": "dimension",
+              "role": "Category",
+              "name": "Store.Manufacturer",
+              "table": "Store",
+              "field": "Store"
+            }
+          ],
+          "filters": [],
+          "isHidden": false
+        },
+        {
+          "name": "Button (053f496f)",
+          "type": "Button",
+          "position": {
+            "x": 544,
+            "y": 134,
+            "width": 692,
+            "height": 40
+          },
+          "measures": [],
+          "dimensions": [],
+          "filters": [],
+          "isHidden": false
+        },
+        {
+          "name": "Button (080ec6ab)",
+          "type": "Button",
+          "position": {
+            "x": 224,
+            "y": 652,
+            "width": 80,
+            "height": 50
+          },
+          "measures": [],
+          "dimensions": [],
+          "filters": [],
+          "isHidden": true
+        },
+        {
+          "name": "Button (0f5634d9)",
+          "type": "Button",
+          "position": {
+            "x": 1013,
+            "y": 652,
+            "width": 96,
+            "height": 50
+          },
+          "measures": [],
+          "dimensions": [],
+          "filters": [],
+          "isHidden": false
+        },
+        {
+          "name": "Button (2610a334)",
+          "type": "Button",
+          "position": {
+            "x": 285,
+            "y": 10,
+            "width": 976,
+            "height": 28
+          },
+          "measures": [],
+          "dimensions": [],
+          "filters": [],
+          "isHidden": false
+        },
+        {
+          "name": "Button (26af840e)",
+          "type": "Button",
+          "position": {
+            "x": 1013,
+            "y": 651,
+            "width": 96,
+            "height": 51
+          },
+          "measures": [],
+          "dimensions": [],
+          "filters": [],
+          "isHidden": true
+        },
+        {
+          "name": "Button (3dfbf089)",
+          "type": "Button",
+          "position": {
+            "x": 552,
+            "y": 652,
+            "width": 80,
+            "height": 49
+          },
+          "measures": [],
+          "dimensions": [],
+          "filters": [],
+          "isHidden": false
+        },
+        {
+          "name": "Button (45390be3)",
+          "type": "Button",
+          "position": {
+            "x": 132,
+            "y": 652,
+            "width": 80,
+            "height": 49
+          },
+          "measures": [],
+          "dimensions": [],
+          "filters": [],
+          "isHidden": false
+        },
+        {
+          "name": "Button (5d14ac02)",
+          "type": "Button",
+          "position": {
+            "x": 1084,
+            "y": 74,
+            "width": 55,
+            "height": 30
+          },
+          "measures": [],
+          "dimensions": [],
+          "filters": [],
+          "isHidden": true
+        },
+        {
+          "name": "Button (722fc46e)",
+          "type": "Button",
+          "position": {
+            "x": 645,
+            "y": 652,
+            "width": 80,
+            "height": 49
+          },
+          "measures": [],
+          "dimensions": [],
+          "filters": [],
+          "isHidden": false
+        },
+        {
+          "name": "Button (7f774b8b)",
+          "type": "Button",
+          "position": {
+            "x": 0,
+            "y": 727,
+            "width": 1280,
+            "height": 33
+          },
+          "measures": [],
+          "dimensions": [],
+          "filters": [],
+          "isHidden": false
+        },
+        {
+          "name": "Button (81526d8b)",
+          "type": "Button",
+          "position": {
+            "x": 224,
+            "y": 652,
+            "width": 80,
+            "height": 49
+          },
+          "measures": [],
+          "dimensions": [],
+          "filters": [],
+          "isHidden": false
+        },
+        {
+          "name": "Button (83b8630b)",
+          "type": "Button",
+          "position": {
+            "x": 645,
+            "y": 652,
+            "width": 80,
+            "height": 50
+          },
+          "measures": [],
+          "dimensions": [],
+          "filters": [],
+          "isHidden": true
+        },
+        {
+          "name": "Button (8ff7d66f)",
+          "type": "Button",
+          "position": {
+            "x": 544,
+            "y": 65,
+            "width": 692,
+            "height": 40
+          },
+          "measures": [],
+          "dimensions": [],
+          "filters": [],
+          "isHidden": false
+        },
+        {
+          "name": "Button (ace24b3a)",
+          "type": "Button",
+          "position": {
+            "x": 553,
+            "y": 652,
+            "width": 80,
+            "height": 50
+          },
+          "measures": [],
+          "dimensions": [],
+          "filters": [],
+          "isHidden": true
+        },
+        {
+          "name": "Button (bdbdc676)",
+          "type": "Button",
+          "position": {
+            "x": 276,
+            "y": 131,
+            "width": 223,
+            "height": 34
+          },
+          "measures": [],
+          "dimensions": [],
+          "filters": [],
+          "isHidden": false
+        },
+        {
+          "name": "Button (cc73fe59)",
+          "type": "Button",
+          "position": {
+            "x": 132,
+            "y": 652,
+            "width": 80,
+            "height": 50
+          },
+          "measures": [],
+          "dimensions": [],
+          "filters": [],
+          "isHidden": true
+        },
+        {
+          "name": "Button (dec3aad3)",
+          "type": "Button",
+          "position": {
+            "x": 23,
+            "y": 131,
+            "width": 223,
+            "height": 34
+          },
+          "measures": [],
+          "dimensions": [],
+          "filters": [],
+          "isHidden": false
+        },
+        {
+          "name": "Button (e9ba73df)",
+          "type": "Button",
+          "position": {
+            "x": 1084,
+            "y": 74,
+            "width": 55,
+            "height": 30
+          },
+          "measures": [],
+          "dimensions": [],
+          "filters": [],
+          "isHidden": true
+        },
+        {
+          "name": "Card (44929275)",
+          "type": "Card",
+          "position": {
+            "x": 276,
+            "y": 71,
+            "width": 223,
+            "height": 59
+          },
+          "measures": [
+            {
+              "type": "measure",
+              "role": "Values",
+              "name": "Analysis DAX.02 Units Returned",
+              "table": "Analysis DAX",
+              "field": "Units Returned"
+            }
+          ],
+          "dimensions": [],
+          "filters": [],
+          "isHidden": false
+        },
+        {
+          "name": "Card (c22adfcc)",
+          "type": "Card",
+          "position": {
+            "x": 23,
+            "y": 71,
+            "width": 223,
+            "height": 59
+          },
+          "measures": [
+            {
+              "type": "measure",
+              "role": "Values",
+              "name": "Analysis DAX.02 Returns",
+              "table": "Analysis DAX",
+              "field": "Returns"
+            }
+          ],
+          "dimensions": [],
+          "filters": [],
+          "isHidden": false
+        },
+        {
+          "name": "Card (c61b21c4)",
+          "type": "Card",
+          "position": {
+            "x": 49,
+            "y": 629,
+            "width": 38,
+            "height": 22
+          },
+          "measures": [
+            {
+              "type": "measure",
+              "role": "Values",
+              "name": "Analysis DAX.Units Returned",
+              "table": "Analysis DAX",
+              "field": "Units Returned"
+            }
+          ],
+          "dimensions": [],
+          "filters": [],
+          "isHidden": false
+        },
+        {
+          "name": "Card (f7d6a1d4)",
+          "type": "Card",
+          "position": {
+            "x": 49,
+            "y": 605,
+            "width": 39,
+            "height": 24
+          },
+          "measures": [
+            {
+              "type": "measure",
+              "role": "Values",
+              "name": "Analysis DAX.Returns",
+              "table": "Analysis DAX",
+              "field": "Returns"
+            }
+          ],
+          "dimensions": [],
+          "filters": [],
+          "isHidden": false
+        },
+        {
+          "name": "Custom Visual (2b50de60)",
+          "type": "Custom Visual",
+          "position": {
+            "x": 444,
+            "y": 217,
+            "width": 393,
+            "height": 438
+          },
+          "measures": [
+            {
+              "type": "measure",
+              "role": "tooltips",
+              "name": "Min(Store.Manufacturer)",
+              "aggregation": "Min",
+              "table": "Store",
+              "field": "Store"
+            },
+            {
+              "type": "measure",
+              "role": "tooltips",
+              "name": "Analysis DAX.02 Returns",
+              "table": "Analysis DAX",
+              "field": "Returns"
+            },
+            {
+              "type": "measure",
+              "role": "color",
+              "name": "Analysis DAX.02 Returns",
+              "table": "Analysis DAX",
+              "field": "Returns"
+            },
+            {
+              "type": "measure",
+              "role": "size",
+              "name": "Analysis DAX.02 Returns",
+              "table": "Analysis DAX",
+              "field": "Returns"
+            }
+          ],
+          "dimensions": [
+            {
+              "type": "dimension",
+              "role": "latitude",
+              "name": "Store.Latitude",
+              "table": "Store",
+              "field": "Latitude"
+            },
+            {
+              "type": "dimension",
+              "role": "longitude",
+              "name": "Store.Longitude",
+              "table": "Store",
+              "field": "Longitude"
+            }
+          ],
+          "filters": [],
+          "isHidden": true
+        },
+        {
+          "name": "Decomposition Tree (ff684e8b)",
+          "type": "Decomposition Tree",
+          "position": {
+            "x": 154,
+            "y": 121,
+            "width": 972,
+            "height": 537
+          },
+          "measures": [
+            {
+              "type": "measure",
+              "role": "Analyze",
+              "name": "Sum(Customer.Amount)",
+              "aggregation": "Sum",
+              "table": "Customer",
+              "field": "Amount"
+            }
+          ],
+          "dimensions": [
+            {
+              "type": "dimension",
+              "role": "ExplainBy",
+              "name": "Customer.Category",
+              "table": "Customer",
+              "field": "Category"
+            },
+            {
+              "type": "dimension",
+              "role": "ExplainBy",
+              "name": "Customer.Product",
+              "table": "Customer",
+              "field": "Product"
+            },
+            {
+              "type": "dimension",
+              "role": "ExplainBy",
+              "name": "Customer.Gender",
+              "table": "Customer",
+              "field": "Gender"
+            },
+            {
+              "type": "dimension",
+              "role": "ExplainBy",
+              "name": "Customer.Age",
+              "table": "Customer",
+              "field": "Age"
+            },
+            {
+              "type": "dimension",
+              "role": "ExplainBy",
+              "name": "Customer.Issue",
+              "table": "Customer",
+              "field": "Issue"
+            },
+            {
+              "type": "dimension",
+              "role": "ExplainBy",
+              "name": "Customer.Store",
+              "table": "Customer",
+              "field": "Store"
+            },
+            {
+              "type": "dimension",
+              "role": "ExplainBy",
+              "name": "Customer.Segment",
+              "table": "Customer",
+              "field": "Segment"
+            },
+            {
+              "type": "dimension",
+              "role": "ExplainBy",
+              "name": "Customer.Type",
+              "table": "Customer",
+              "field": "Type"
+            },
+            {
+              "type": "dimension",
+              "role": "ExplainBy",
+              "name": "Customer.Price Range",
+              "table": "Customer",
+              "field": "Price Range"
+            }
+          ],
+          "filters": [],
+          "isHidden": true
+        },
+        {
+          "name": "Image (5aa2c2bc)",
+          "type": "Image",
+          "position": {
+            "x": 49,
+            "y": 582,
+            "width": 38,
+            "height": 23
+          },
+          "measures": [],
+          "dimensions": [],
+          "filters": [],
+          "isHidden": false
+        },
+        {
+          "name": "Image (9069b5be)",
+          "type": "Image",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 1280,
+            "height": 760
+          },
+          "measures": [],
+          "dimensions": [],
+          "filters": [],
+          "isHidden": true
+        },
+        {
+          "name": "Image (ec681085)",
+          "type": "Image",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 1280,
+            "height": 760
+          },
+          "measures": [],
+          "dimensions": [],
+          "filters": [],
+          "isHidden": true
+        },
+        {
+          "name": "Key Drivers (7a294bf0)",
+          "type": "Key Drivers",
+          "position": {
+            "x": 154,
+            "y": 121,
+            "width": 972,
+            "height": 537
+          },
+          "measures": [],
+          "dimensions": [
+            {
+              "type": "dimension",
+              "role": "ExplainBy",
+              "name": "Customer.Issue",
+              "table": "Customer",
+              "field": "Issue"
+            },
+            {
+              "type": "dimension",
+              "role": "ExplainBy",
+              "name": "Customer.Age",
+              "table": "Customer",
+              "field": "Age"
+            },
+            {
+              "type": "dimension",
+              "role": "ExplainBy",
+              "name": "Customer.Price Range",
+              "table": "Customer",
+              "field": "Price Range"
+            },
+            {
+              "type": "dimension",
+              "role": "ExplainBy",
+              "name": "Customer.Store",
+              "table": "Customer",
+              "field": "Store"
+            },
+            {
+              "type": "dimension",
+              "role": "ExplainBy",
+              "name": "Customer.Category",
+              "table": "Customer",
+              "field": "Category"
+            },
+            {
+              "type": "dimension",
+              "role": "ExplainBy",
+              "name": "Customer.Product",
+              "table": "Customer",
+              "field": "Product"
+            },
+            {
+              "type": "dimension",
+              "role": "Target",
+              "name": "Customer.Gender",
+              "table": "Customer",
+              "field": "Gender"
+            }
+          ],
+          "filters": [],
+          "isHidden": true
+        },
+        {
+          "name": "Pivot Table (aae8953d)",
+          "type": "Pivot Table",
+          "position": {
+            "x": 23,
+            "y": 217,
+            "width": 393,
+            "height": 441
+          },
+          "measures": [
+            {
+              "type": "measure",
+              "role": "Values",
+              "name": "Analysis DAX.02 Returns",
+              "table": "Analysis DAX",
+              "field": "Returns"
+            },
+            {
+              "type": "measure",
+              "role": "Values",
+              "name": "Analysis DAX.02 Units Returned",
+              "table": "Analysis DAX",
+              "field": "Units Returned"
+            }
+          ],
+          "dimensions": [
+            {
+              "type": "dimension",
+              "role": "Rows",
+              "name": "Product.Product",
+              "table": "Product",
+              "field": "Product"
+            }
+          ],
+          "filters": [],
+          "isHidden": true
+        },
+        {
+          "name": "Q&A Visual (035e3642)",
+          "type": "Q&A Visual",
+          "position": {
+            "x": 865,
+            "y": 217,
+            "width": 393,
+            "height": 443
+          },
+          "measures": [],
+          "dimensions": [],
+          "filters": [],
+          "isHidden": false
+        },
+        {
+          "name": "Q&A Visual (959bd7e9)",
+          "type": "Q&A Visual",
+          "position": {
+            "x": 865,
+            "y": 217,
+            "width": 393,
+            "height": 443
+          },
+          "measures": [
+            {
+              "type": "measure",
+              "role": "Y",
+              "name": "Sum(Sales.Amount)",
+              "aggregation": "Sum",
+              "table": "Sales",
+              "field": "Amount"
+            }
+          ],
+          "dimensions": [
+            {
+              "type": "dimension",
+              "role": "Category",
+              "name": "Sales.Dates",
+              "table": "Sales",
+              "field": "Dates"
+            },
+            {
+              "type": "dimension",
+              "role": "Series",
+              "name": "Sales.Status",
+              "table": "Sales",
+              "field": "Status"
+            }
+          ],
+          "filters": [],
+          "isHidden": true
+        },
+        {
+          "name": "Shape (359adc6f)",
+          "type": "Shape",
+          "position": {
+            "x": 110,
+            "y": 110,
+            "width": 9,
+            "height": 9
+          },
+          "measures": [],
+          "dimensions": [],
+          "filters": [],
+          "isHidden": true
+        },
+        {
+          "name": "Shape (82f0f62f)",
+          "type": "Shape",
+          "position": {
+            "x": 120,
+            "y": 120,
+            "width": 9,
+            "height": 9
+          },
+          "measures": [],
+          "dimensions": [],
+          "filters": [],
+          "isHidden": true
+        },
+        {
+          "name": "Shape (aefe1f0a)",
+          "type": "Shape",
+          "position": {
+            "x": 100,
+            "y": 100,
+            "width": 9,
+            "height": 9
+          },
+          "measures": [],
+          "dimensions": [],
+          "filters": [],
+          "isHidden": true
+        }
+      ],
+      "filters": [
+        {
+          "name": "Filter",
+          "type": "List Filter",
+          "field": "Sales.Status",
+          "isHidden": false,
+          "isLocked": false
+        },
+        {
+          "name": "Filter1",
+          "type": "List Filter",
+          "field": "Sales.Status",
+          "isHidden": false,
+          "isLocked": false
+        }
+      ]
+    },
+    {
+      "name": "Return Rate",
+      "id": "ReportSectiona37d01e834c17d07bbeb",
+      "dimensions": "1280 × 760",
+      "visuals": [
+        {
+          "name": "Button (031aa35e)",
+          "type": "Button",
+          "position": {
+            "x": 1072,
+            "y": 653,
+            "width": 80,
+            "height": 50
+          },
+          "measures": [],
+          "dimensions": [],
+          "filters": [],
+          "isHidden": false
+        },
+        {
+          "name": "Button (047934be)",
+          "type": "Button",
+          "position": {
+            "x": 10,
+            "y": 10,
+            "width": 100,
+            "height": 40
+          },
+          "measures": [],
+          "dimensions": [],
+          "filters": [],
+          "isHidden": true
+        },
+        {
+          "name": "Button (120db5e2)",
+          "type": "Button",
+          "position": {
+            "x": 552,
+            "y": 653,
+            "width": 80,
+            "height": 50
+          },
+          "measures": [],
+          "dimensions": [],
+          "filters": [],
+          "isHidden": true
+        },
+        {
+          "name": "Button (1281c65b)",
+          "type": "Button",
+          "position": {
+            "x": 979,
+            "y": 653,
+            "width": 80,
+            "height": 50
+          },
+          "measures": [],
+          "dimensions": [],
+          "filters": [],
+          "isHidden": false
+        },
+        {
+          "name": "Button (12a602a0)",
+          "type": "Button",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 100,
+            "height": 40
+          },
+          "measures": [],
+          "dimensions": [],
+          "filters": [],
+          "isHidden": true
+        },
+        {
+          "name": "Button (1ca4118b)",
+          "type": "Button",
+          "position": {
+            "x": 0,
+            "y": 727,
+            "width": 1280,
+            "height": 33
+          },
+          "measures": [],
+          "dimensions": [],
+          "filters": [],
+          "isHidden": false
+        },
+        {
+          "name": "Button (23b66618)",
+          "type": "Button",
+          "position": {
+            "x": 645,
+            "y": 653,
+            "width": 80,
+            "height": 50
+          },
+          "measures": [],
+          "dimensions": [],
+          "filters": [],
+          "isHidden": false
+        },
+        {
+          "name": "Button (52763970)",
+          "type": "Button",
+          "position": {
+            "x": 979,
+            "y": 653,
+            "width": 80,
+            "height": 50
+          },
+          "measures": [],
+          "dimensions": [],
+          "filters": [],
+          "isHidden": true
+        },
+        {
+          "name": "Button (5c17183c)",
+          "type": "Button",
+          "position": {
+            "x": 1072,
+            "y": 653,
+            "width": 80,
+            "height": 50
+          },
+          "measures": [],
+          "dimensions": [],
+          "filters": [],
+          "isHidden": true
+        },
+        {
+          "name": "Button (5fb61b9e)",
+          "type": "Button",
+          "position": {
+            "x": 285,
+            "y": 10,
+            "width": 976,
+            "height": 28
+          },
+          "measures": [],
+          "dimensions": [],
+          "filters": [],
+          "isHidden": false
+        },
+        {
+          "name": "Button (750e0ce1)",
+          "type": "Button",
+          "position": {
+            "x": 645,
+            "y": 653,
+            "width": 80,
+            "height": 50
+          },
+          "measures": [],
+          "dimensions": [],
+          "filters": [],
+          "isHidden": true
+        },
+        {
+          "name": "Button (9afd7e47)",
+          "type": "Button",
+          "position": {
+            "x": 552,
+            "y": 653,
+            "width": 81,
+            "height": 50
+          },
+          "measures": [],
+          "dimensions": [],
+          "filters": [],
+          "isHidden": false
+        },
+        {
+          "name": "Button (cbfdac01)",
+          "type": "Button",
+          "position": {
+            "x": 783,
+            "y": 131,
+            "width": 223,
+            "height": 34
+          },
+          "measures": [],
+          "dimensions": [],
+          "filters": [],
+          "isHidden": false
+        },
+        {
+          "name": "Button (e15087e7)",
+          "type": "Button",
+          "position": {
+            "x": 1035,
+            "y": 131,
+            "width": 223,
+            "height": 34
+          },
+          "measures": [],
+          "dimensions": [],
+          "filters": [],
+          "isHidden": false
+        },
+        {
+          "name": "Card (70748de9)",
+          "type": "Card",
+          "position": {
+            "x": 783,
+            "y": 71,
+            "width": 223,
+            "height": 59
+          },
+          "measures": [
+            {
+              "type": "measure",
+              "role": "Values",
+              "name": "Analysis DAX.WIF Forecast",
+              "table": "Analysis DAX",
+              "field": "WIF Forecast"
+            }
+          ],
+          "dimensions": [],
+          "filters": [],
+          "isHidden": false
+        },
+        {
+          "name": "Card (9edae67a)",
+          "type": "Card",
+          "position": {
+            "x": 29,
+            "y": 100,
+            "width": 380,
+            "height": 32
+          },
+          "measures": [
+            {
+              "type": "measure",
+              "role": "Values",
+              "name": "Min(Product.Category)",
+              "aggregation": "Min",
+              "table": "Product",
+              "field": "Category"
+            }
+          ],
+          "dimensions": [],
+          "filters": [],
+          "isHidden": false
+        },
+        {
+          "name": "Card (d4d72ae2)",
+          "type": "Card",
+          "position": {
+            "x": 1035,
+            "y": 71,
+            "width": 223,
+            "height": 59
+          },
+          "measures": [
+            {
+              "type": "measure",
+              "role": "Values",
+              "name": "Analysis DAX.WIF Profit",
+              "table": "Analysis DAX",
+              "field": "WIF Profit"
+            }
+          ],
+          "dimensions": [],
+          "filters": [],
+          "isHidden": false
+        },
+        {
+          "name": "Card (e5b7b6b9)",
+          "type": "Card",
+          "position": {
+            "x": 29,
+            "y": 534,
+            "width": 381,
+            "height": 55
+          },
+          "measures": [
+            {
+              "type": "measure",
+              "role": "Values",
+              "name": "Analysis DAX.Return Rate",
+              "table": "Analysis DAX",
+              "field": "Return Rate"
+            }
+          ],
+          "dimensions": [],
+          "filters": [],
+          "isHidden": false
+        },
+        {
+          "name": "Column Chart (30039fa5)",
+          "type": "Column Chart",
+          "position": {
+            "x": 862,
+            "y": 217,
+            "width": 399,
+            "height": 438
+          },
+          "measures": [
+            {
+              "type": "measure",
+              "role": "Y",
+              "name": "Analysis DAX.WIF Sales",
+              "table": "Analysis DAX",
+              "field": "WIF Sales"
+            },
+            {
+              "type": "measure",
+              "role": "Y",
+              "name": "Analysis DAX.WIF Total Profit",
+              "table": "Analysis DAX",
+              "field": "WIF Total Profit"
+            }
+          ],
+          "dimensions": [
+            {
+              "type": "dimension",
+              "role": "Category",
+              "name": "Sales.Date",
+              "table": "Sales",
+              "field": "Date"
+            }
+          ],
+          "filters": [],
+          "isHidden": true
+        },
+        {
+          "name": "Column Chart (948988db)",
+          "type": "Column Chart",
+          "position": {
+            "x": 6,
+            "y": 597,
+            "width": 427,
+            "height": 117
+          },
+          "measures": [
+            {
+              "type": "measure",
+              "role": "Y",
+              "name": "Analysis DAX.Total Return Rate",
+              "table": "Analysis DAX",
+              "field": "Total Return Rate"
+            }
+          ],
+          "dimensions": [
+            {
+              "type": "dimension",
+              "role": "Category",
+              "name": "Calendar.Date",
+              "table": "Calendar",
+              "field": "Date"
+            }
+          ],
+          "filters": [],
+          "isHidden": false
+        },
+        {
+          "name": "Custom Visual (0985c856)",
+          "type": "Custom Visual",
+          "position": {
+            "x": 18,
+            "y": 145,
+            "width": 403,
+            "height": 381
+          },
+          "measures": [],
+          "dimensions": [
+            {
+              "type": "dimension",
+              "role": "imageURL",
+              "name": "Product.Product Image",
+              "table": "Product",
+              "field": "Product Image"
+            }
+          ],
+          "filters": [],
+          "isHidden": false
+        },
+        {
+          "name": "Custom Visual (88ea4b41)",
+          "type": "Custom Visual",
+          "position": {
+            "x": 444,
+            "y": 217,
+            "width": 393,
+            "height": 438
+          },
+          "measures": [
+            {
+              "type": "measure",
+              "role": "tooltips",
+              "name": "Min(Store.Manufacturer)",
+              "aggregation": "Min",
+              "table": "Store",
+              "field": "Store"
+            },
+            {
+              "type": "measure",
+              "role": "tooltips",
+              "name": "Analysis DAX.WIF Forecast",
+              "table": "Analysis DAX",
+              "field": "WIF Forecast"
+            },
+            {
+              "type": "measure",
+              "role": "size",
+              "name": "Analysis DAX.WIF Forecast",
+              "table": "Analysis DAX",
+              "field": "WIF Forecast"
+            }
+          ],
+          "dimensions": [
+            {
+              "type": "dimension",
+              "role": "latitude",
+              "name": "Store.Latitude",
+              "table": "Store",
+              "field": "Latitude"
+            },
+            {
+              "type": "dimension",
+              "role": "longitude",
+              "name": "Store.Longitude",
+              "table": "Store",
+              "field": "Longitude"
+            }
+          ],
+          "filters": [],
+          "isHidden": true
+        },
+        {
+          "name": "Line Chart (805719ca)",
+          "type": "Line Chart",
+          "position": {
+            "x": 865,
+            "y": 285,
+            "width": 395,
+            "height": 353
+          },
+          "measures": [
+            {
+              "type": "measure",
+              "role": "Y",
+              "name": "Analysis DAX.WIF Total Forecast",
+              "table": "Analysis DAX",
+              "field": "WIF Total Forecast"
+            }
+          ],
+          "dimensions": [
+            {
+              "type": "dimension",
+              "role": "Category",
+              "name": "Calendar.Date",
+              "table": "Calendar",
+              "field": "Date"
+            }
+          ],
+          "filters": [],
+          "isHidden": false
+        },
+        {
+          "name": "Multi-row Card (f176d40e)",
+          "type": "Multi-row Card",
+          "position": {
+            "x": 29,
+            "y": 79,
+            "width": 381,
+            "height": 126
+          },
+          "measures": [],
+          "dimensions": [
+            {
+              "type": "dimension",
+              "role": "Values",
+              "name": "Product.Category Image",
+              "table": "Product",
+              "field": "Category Image"
+            }
+          ],
+          "filters": [],
+          "isHidden": false
+        },
+        {
+          "name": "Pivot Table (b3339781)",
+          "type": "Pivot Table",
+          "position": {
+            "x": 444,
+            "y": 216,
+            "width": 396,
+            "height": 441
+          },
+          "measures": [
+            {
+              "type": "measure",
+              "role": "Values",
+              "name": "Analysis DAX.Net Sales",
+              "table": "Analysis DAX",
+              "field": "Net Sales"
+            },
+            {
+              "type": "measure",
+              "role": "Values",
+              "name": "Analysis DAX.WIF Forecast",
+              "table": "Analysis DAX",
+              "field": "WIF Forecast"
+            },
+            {
+              "type": "measure",
+              "role": "Values",
+              "name": "Analysis DAX.WIF Profit",
+              "table": "Analysis DAX",
+              "field": "WIF Profit"
+            }
+          ],
+          "dimensions": [
+            {
+              "type": "dimension",
+              "role": "Rows",
+              "name": "Customer.Type",
+              "table": "Customer",
+              "field": "Type"
+            },
+            {
+              "type": "dimension",
+              "role": "Rows",
+              "name": "Store.Store",
+              "table": "Store",
+              "field": "Store"
+            }
+          ],
+          "filters": [],
+          "isHidden": false
+        },
+        {
+          "name": "Slicer (40b3abf6)",
+          "type": "Slicer",
+          "position": {
+            "x": 444,
+            "y": 66,
+            "width": 325,
+            "height": 175
+          },
+          "measures": [],
+          "dimensions": [
+            {
+              "type": "dimension",
+              "role": "Values",
+              "name": "% Return Rate.% Return Rate",
+              "table": "% Return Rate",
+              "field": "% Return Rate"
+            }
+          ],
+          "filters": [],
+          "isHidden": false
+        },
+        {
+          "name": "Text Box (60430d7c)",
+          "type": "Text Box",
+          "position": {
+            "x": 865,
+            "y": 217,
+            "width": 395,
+            "height": 69
+          },
+          "measures": [],
+          "dimensions": [],
+          "filters": [],
+          "isHidden": false
+        }
+      ],
+      "filters": [
+        {
+          "name": "Filter",
+          "type": "List Filter",
+          "field": "Product.Product",
+          "isHidden": false,
+          "isLocked": false
+        }
+      ]
+    },
+    {
+      "name": "CathegoryBreackdown",
+      "id": "ReportSectiona63d9045ac68091ae138",
+      "dimensions": "400 × 400",
+      "visuals": [
+        {
+          "name": "Custom Visual (7a2c874b)",
+          "type": "Custom Visual",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 400,
+            "height": 400
+          },
+          "measures": [],
+          "dimensions": [
+            {
+              "type": "dimension",
+              "role": "category",
+              "name": "GIF.URL",
+              "table": "Tooltip Info",
+              "field": "URL"
+            }
+          ],
+          "filters": [],
+          "isHidden": false
+        }
+      ],
+      "filters": [
+        {
+          "name": "Filter",
+          "type": "List Filter",
+          "field": "Tooltip Info.nombre",
+          "isHidden": false,
+          "isLocked": false
+        }
+      ]
+    },
+    {
+      "name": "Q&A1",
+      "id": "ReportSectionac989ac185c4a0764a5e",
+      "dimensions": "400 × 400",
+      "visuals": [
+        {
+          "name": "Custom Visual (7a2c874b)",
+          "type": "Custom Visual",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 400,
+            "height": 400
+          },
+          "measures": [],
+          "dimensions": [
+            {
+              "type": "dimension",
+              "role": "category",
+              "name": "Tooltip Info2.URL",
+              "table": "Tooltip Info2",
+              "field": "URL"
+            }
+          ],
+          "filters": [
+            {
+              "name": "2d46bcc12e7c051a340c",
+              "type": "List Filter",
+              "field": "Tooltip Info2.URL",
+              "isHidden": false,
+              "isLocked": false
+            }
+          ],
+          "isHidden": false
+        }
+      ],
+      "filters": [
+        {
+          "name": "Filter",
+          "type": "List Filter",
+          "field": "Tooltip Info.nombre",
+          "isHidden": false,
+          "isLocked": false
+        }
+      ]
+    },
+    {
+      "name": "Net Sales Tooltip",
+      "id": "ReportSectionc0cfc0e4243d2494dbe0",
+      "dimensions": "250 × 400",
+      "visuals": [
+        {
+          "name": "Button (28ed56f0)",
+          "type": "Button",
+          "position": {
+            "x": 132,
+            "y": 344,
+            "width": 100,
+            "height": 40
+          },
+          "measures": [],
+          "dimensions": [],
+          "filters": [],
+          "isHidden": false
+        },
+        {
+          "name": "Button (62521677)",
+          "type": "Button",
+          "position": {
+            "x": 18,
+            "y": 344,
+            "width": 100,
+            "height": 40
+          },
+          "measures": [],
+          "dimensions": [],
+          "filters": [],
+          "isHidden": false
+        },
+        {
+          "name": "Card (26d7e287)",
+          "type": "Card",
+          "position": {
+            "x": 125,
+            "y": 324,
+            "width": 114,
+            "height": 55
+          },
+          "measures": [
+            {
+              "type": "measure",
+              "role": "Values",
+              "name": "Sum(Product.Price)",
+              "aggregation": "Sum",
+              "table": "Product",
+              "field": "Price"
+            }
+          ],
+          "dimensions": [],
+          "filters": [],
+          "isHidden": false
+        },
+        {
+          "name": "Card (458ec6da)",
+          "type": "Card",
+          "position": {
+            "x": 0,
+            "y": 32,
+            "width": 250,
+            "height": 28
+          },
+          "measures": [
+            {
+              "type": "measure",
+              "role": "Values",
+              "name": "Min(Product.Category)",
+              "aggregation": "Min",
+              "table": "Product",
+              "field": "Category"
+            }
+          ],
+          "dimensions": [],
+          "filters": [],
+          "isHidden": false
+        },
+        {
+          "name": "Card (462a8b82)",
+          "type": "Card",
+          "position": {
+            "x": 11,
+            "y": 324,
+            "width": 113,
+            "height": 55
+          },
+          "measures": [
+            {
+              "type": "measure",
+              "role": "Values",
+              "name": "Sum(Sales.Amount)",
+              "aggregation": "Sum",
+              "table": "Sales",
+              "field": "Amount"
+            }
+          ],
+          "dimensions": [],
+          "filters": [],
+          "isHidden": false
+        },
+        {
+          "name": "Card (bc985269)",
+          "type": "Card",
+          "position": {
+            "x": 0,
+            "y": 46,
+            "width": 250,
+            "height": 51
+          },
+          "measures": [
+            {
+              "type": "measure",
+              "role": "Values",
+              "name": "CountNonNull(Product.ProductID)",
+              "aggregation": "Sum",
+              "table": "Product",
+              "field": "ProductID"
+            }
+          ],
+          "dimensions": [],
+          "filters": [],
+          "isHidden": false
+        },
+        {
+          "name": "Card (cf7ce087)",
+          "type": "Card",
+          "position": {
+            "x": 0,
+            "y": 17,
+            "width": 250,
+            "height": 28
+          },
+          "measures": [
+            {
+              "type": "measure",
+              "role": "Values",
+              "name": "Min(Product.Product)",
+              "aggregation": "Min",
+              "table": "Product",
+              "field": "Product"
+            }
+          ],
+          "dimensions": [],
+          "filters": [],
+          "isHidden": false
+        },
+        {
+          "name": "Custom Visual (0985c856)",
+          "type": "Custom Visual",
+          "position": {
+            "x": 11,
+            "y": 72,
+            "width": 228,
+            "height": 211
+          },
+          "measures": [],
+          "dimensions": [
+            {
+              "type": "dimension",
+              "role": "imageURL",
+              "name": "Product.Product Image",
+              "table": "Product",
+              "field": "Product Image"
+            }
+          ],
+          "filters": [],
+          "isHidden": false
+        },
+        {
+          "name": "Custom Visual (b4909a17)",
+          "type": "Custom Visual",
+          "position": {
+            "x": 4,
+            "y": 273,
+            "width": 244,
+            "height": 63
+          },
+          "measures": [],
+          "dimensions": [
+            {
+              "type": "dimension",
+              "role": "imageURL",
+              "name": "Product.Category Image",
+              "table": "Product",
+              "field": "Category Image"
+            }
+          ],
+          "filters": [],
+          "isHidden": false
+        },
+        {
+          "name": "Image (f24b1175)",
+          "type": "Image",
+          "position": {
+            "x": 60,
+            "y": 247,
+            "width": 132,
+            "height": 114
+          },
+          "measures": [],
+          "dimensions": [],
+          "filters": [],
+          "isHidden": false
+        }
+      ],
+      "filters": []
+    },
+    {
+      "name": "Legal",
+      "id": "ReportSectiond8ab5d035cceb8586528",
+      "dimensions": "500 × 720",
+      "visuals": [
+        {
+          "name": "Image (0ac67e91)",
+          "type": "Image",
+          "position": {
+            "x": 21,
+            "y": 0,
+            "width": 324,
+            "height": 172
+          },
+          "measures": [],
+          "dimensions": [],
+          "filters": [],
+          "isHidden": false
+        },
+        {
+          "name": "Text Box (2fc7f09b)",
+          "type": "Text Box",
+          "position": {
+            "x": 52,
+            "y": 172,
+            "width": 395,
+            "height": 460
+          },
+          "measures": [],
+          "dimensions": [],
+          "filters": [],
+          "isHidden": false
+        }
+      ],
+      "filters": []
+    },
+    {
+      "name": "Market Basket Analysis",
+      "id": "ReportSectione5a0c158d21b780789a8",
+      "dimensions": "1280 × 760",
+      "visuals": [
+        {
+          "name": "Button (06425370)",
+          "type": "Button",
+          "position": {
+            "x": 142,
+            "y": 642,
+            "width": 160,
+            "height": 51
+          },
+          "measures": [],
+          "dimensions": [],
+          "filters": [],
+          "isHidden": false
+        },
+        {
+          "name": "Button (08041836)",
+          "type": "Button",
+          "position": {
+            "x": 541,
+            "y": 49,
+            "width": 54,
+            "height": 31
+          },
+          "measures": [],
+          "dimensions": [],
+          "filters": [],
+          "isHidden": true
+        },
+        {
+          "name": "Button (6fe5bf42)",
+          "type": "Button",
+          "position": {
+            "x": 285,
+            "y": 10,
+            "width": 976,
+            "height": 28
+          },
+          "measures": [],
+          "dimensions": [],
+          "filters": [],
+          "isHidden": false
+        },
+        {
+          "name": "Button (8d1587cb)",
+          "type": "Button",
+          "position": {
+            "x": 460,
+            "y": 643,
+            "width": 160,
+            "height": 50
+          },
+          "measures": [],
+          "dimensions": [],
+          "filters": [],
+          "isHidden": false
+        },
+        {
+          "name": "Button (f031c753)",
+          "type": "Button",
+          "position": {
+            "x": 0,
+            "y": 727,
+            "width": 1280,
+            "height": 33
+          },
+          "measures": [],
+          "dimensions": [],
+          "filters": [],
+          "isHidden": false
+        },
+        {
+          "name": "Card (3ef75ec0)",
+          "type": "Card",
+          "position": {
+            "x": 29,
+            "y": 100,
+            "width": 380,
+            "height": 32
+          },
+          "measures": [
+            {
+              "type": "measure",
+              "role": "Values",
+              "name": "Min(Product.Category)",
+              "aggregation": "Min",
+              "table": "Product",
+              "field": "Category"
+            }
+          ],
+          "dimensions": [],
+          "filters": [],
+          "isHidden": false
+        },
+        {
+          "name": "ClusterMap1652434605854 (5e71aaa6)",
+          "type": "ClusterMap1652434605854",
+          "position": {
+            "x": 640,
+            "y": 68,
+            "width": 616,
+            "height": 632
+          },
+          "measures": [
+            {
+              "type": "measure",
+              "role": "ReferenceCount",
+              "name": "Sum(Association.Probability)",
+              "aggregation": "Sum",
+              "table": "Association",
+              "field": "Probability"
+            }
+          ],
+          "dimensions": [
+            {
+              "type": "dimension",
+              "role": "PersonaGroup",
+              "name": "Association.RuleID",
+              "table": "Association",
+              "field": "RuleID"
+            },
+            {
+              "type": "dimension",
+              "role": "ReferenceImageUrl",
+              "name": "Associated Product.Product Image",
+              "table": "Associated Product",
+              "field": "Product Image"
+            },
+            {
+              "type": "dimension",
+              "role": "ReferenceName",
+              "name": "Associated Product.Product",
+              "table": "Associated Product",
+              "field": "Product"
+            },
+            {
+              "type": "dimension",
+              "role": "ReferenceBucket",
+              "name": "Associated Product.Segment by",
+              "table": "Associated Product",
+              "field": "Segmented by"
+            }
+          ],
+          "filters": [
+            {
+              "name": "c5c65a518995e0ad4a15",
+              "type": "Top N Filter",
+              "field": "Association.RightItemSetId",
+              "isHidden": false,
+              "isLocked": false
+            }
+          ],
+          "isHidden": false
+        },
+        {
+          "name": "Custom Visual (95011f6b)",
+          "type": "Custom Visual",
+          "position": {
+            "x": 18,
+            "y": 145,
+            "width": 403,
+            "height": 381
+          },
+          "measures": [],
+          "dimensions": [
+            {
+              "type": "dimension",
+              "role": "imageURL",
+              "name": "Product.Product Image",
+              "table": "Product",
+              "field": "Product Image"
+            }
+          ],
+          "filters": [],
+          "isHidden": false
+        },
+        {
+          "name": "Custom Visual (fd716850)",
+          "type": "Custom Visual",
+          "position": {
+            "x": 294,
+            "y": 114,
+            "width": 301,
+            "height": 527
+          },
+          "measures": [],
+          "dimensions": [
+            {
+              "type": "dimension",
+              "role": "category",
+              "name": "Tooltip Info.URL",
+              "table": "Tooltip Info",
+              "field": "URL"
+            }
+          ],
+          "filters": [
+            {
+              "name": "Filter",
+              "type": "List Filter",
+              "field": "Tooltip Info.nombre",
+              "isHidden": false,
+              "isLocked": false
+            }
+          ],
+          "isHidden": true
+        },
+        {
+          "name": "Image (34a71235)",
+          "type": "Image",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 1280,
+            "height": 761
+          },
+          "measures": [],
+          "dimensions": [],
+          "filters": [],
+          "isHidden": true
+        },
+        {
+          "name": "Multi-row Card (20e8dd37)",
+          "type": "Multi-row Card",
+          "position": {
+            "x": 454,
+            "y": 379,
+            "width": 132,
+            "height": 66
+          },
+          "measures": [
+            {
+              "type": "measure",
+              "role": "Values",
+              "name": "Sum(Association.Support)",
+              "aggregation": "Sum",
+              "table": "Association",
+              "field": "Support"
+            }
+          ],
+          "dimensions": [],
+          "filters": [
+            {
+              "name": "eb9881bb408777e400da",
+              "type": "Top N Filter",
+              "field": "Associated Product.Product",
+              "isHidden": false,
+              "isLocked": false
+            }
+          ],
+          "isHidden": false
+        },
+        {
+          "name": "Multi-row Card (30d9722b)",
+          "type": "Multi-row Card",
+          "position": {
+            "x": 454,
+            "y": 312,
+            "width": 141,
+            "height": 69
+          },
+          "measures": [
+            {
+              "type": "measure",
+              "role": "Values",
+              "name": "Sum(Association.Probability)",
+              "aggregation": "Sum",
+              "table": "Association",
+              "field": "Probability"
+            }
+          ],
+          "dimensions": [],
+          "filters": [
+            {
+              "name": "6ebc5ad7979878707712",
+              "type": "Top N Filter",
+              "field": "Associated Product.Product",
+              "isHidden": false,
+              "isLocked": false
+            }
+          ],
+          "isHidden": false
+        },
+        {
+          "name": "Multi-row Card (56dcc95a)",
+          "type": "Multi-row Card",
+          "position": {
+            "x": 454,
+            "y": 249,
+            "width": 151,
+            "height": 81
+          },
+          "measures": [],
+          "dimensions": [
+            {
+              "type": "dimension",
+              "role": "Values",
+              "name": "Associated Product.Product",
+              "table": "Associated Product",
+              "field": "Product"
+            }
+          ],
+          "filters": [
+            {
+              "name": "e8bf4b732e42009380b6",
+              "type": "Top N Filter",
+              "field": "Associated Product.Product",
+              "isHidden": false,
+              "isLocked": false
+            }
+          ],
+          "isHidden": false
+        },
+        {
+          "name": "Multi-row Card (734282de)",
+          "type": "Multi-row Card",
+          "position": {
+            "x": 454,
+            "y": 444,
+            "width": 132,
+            "height": 69
+          },
+          "measures": [
+            {
+              "type": "measure",
+              "role": "Values",
+              "name": "Design DAX.Lift Label",
+              "table": "Design DAX",
+              "field": "Lift Label"
+            }
+          ],
+          "dimensions": [],
+          "filters": [
+            {
+              "name": "5610084ed1402d90066d",
+              "type": "Top N Filter",
+              "field": "Associated Product.Product",
+              "isHidden": false,
+              "isLocked": false
+            }
+          ],
+          "isHidden": false
+        },
+        {
+          "name": "Multi-row Card (e265978d)",
+          "type": "Multi-row Card",
+          "position": {
+            "x": 29,
+            "y": 79,
+            "width": 381,
+            "height": 126
+          },
+          "measures": [],
+          "dimensions": [
+            {
+              "type": "dimension",
+              "role": "Values",
+              "name": "Product.Category Image",
+              "table": "Product",
+              "field": "Category Image"
+            }
+          ],
+          "filters": [],
+          "isHidden": false
+        },
+        {
+          "name": "Pivot Table (fa4c152d)",
+          "type": "Pivot Table",
+          "position": {
+            "x": 24,
+            "y": 524,
+            "width": 395,
+            "height": 118
+          },
+          "measures": [
+            {
+              "type": "measure",
+              "role": "Values",
+              "name": "Min(Product.Category)",
+              "aggregation": "Min",
+              "table": "Product",
+              "field": "Category"
+            },
+            {
+              "type": "measure",
+              "role": "Values",
+              "name": "Min(Product.Segment)",
+              "aggregation": "Min",
+              "table": "Product",
+              "field": "Segment"
+            },
+            {
+              "type": "measure",
+              "role": "Values",
+              "name": "Sum(Product.Price)",
+              "aggregation": "Sum",
+              "table": "Product",
+              "field": "Price"
+            }
+          ],
+          "dimensions": [],
+          "filters": [],
+          "isHidden": false
+        },
+        {
+          "name": "Text Box (1f178445)",
+          "type": "Text Box",
+          "position": {
+            "x": 454,
+            "y": 473,
+            "width": 119,
+            "height": 40
+          },
+          "measures": [],
+          "dimensions": [],
+          "filters": [],
+          "isHidden": false
+        },
+        {
+          "name": "Text Box (6d8538ae)",
+          "type": "Text Box",
+          "position": {
+            "x": 454,
+            "y": 605,
+            "width": 239,
+            "height": 60
+          },
+          "measures": [],
+          "dimensions": [],
+          "filters": [],
+          "isHidden": false
+        },
+        {
+          "name": "Text Box (acb18591)",
+          "type": "Text Box",
+          "position": {
+            "x": 454,
+            "y": 83,
+            "width": 238,
+            "height": 123
+          },
+          "measures": [],
+          "dimensions": [],
+          "filters": [],
+          "isHidden": false
+        }
+      ],
+      "filters": [
+        {
+          "name": "Filter",
+          "type": "List Filter",
+          "field": "Product.Product",
+          "isHidden": false,
+          "isLocked": false
+        }
+      ]
+    },
+    {
+      "name": "KeyInfluencers",
+      "id": "ReportSectionefae9520722c310c4ba0",
+      "dimensions": "400 × 400",
+      "visuals": [
+        {
+          "name": "Custom Visual (7a2c874b)",
+          "type": "Custom Visual",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 400,
+            "height": 400
+          },
+          "measures": [],
+          "dimensions": [
+            {
+              "type": "dimension",
+              "role": "category",
+              "name": "GIF.URL",
+              "table": "Tooltip Info",
+              "field": "URL"
+            }
+          ],
+          "filters": [],
+          "isHidden": false
+        }
+      ],
+      "filters": [
+        {
+          "name": "Filter",
+          "type": "List Filter",
+          "field": "Tooltip Info.nombre",
+          "isHidden": false,
+          "isLocked": false
+        }
+      ]
+    },
+    {
+      "name": "StoreBreackdown",
+      "id": "ReportSectionf037c36b9a1a39cc3b14",
+      "dimensions": "400 × 400",
+      "visuals": [
+        {
+          "name": "Custom Visual (7a2c874b)",
+          "type": "Custom Visual",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 400,
+            "height": 400
+          },
+          "measures": [],
+          "dimensions": [
+            {
+              "type": "dimension",
+              "role": "category",
+              "name": "GIF.URL",
+              "table": "Tooltip Info",
+              "field": "URL"
+            }
+          ],
+          "filters": [],
+          "isHidden": false
+        }
+      ],
+      "filters": [
+        {
+          "name": "Filter",
+          "type": "List Filter",
+          "field": "Tooltip Info.nombre",
+          "isHidden": false,
+          "isLocked": false
+        }
+      ]
+    }
+  ]
+}
